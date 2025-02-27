@@ -36,3 +36,25 @@
     margin: 0;
     padding: 0;
   }
+
+  h1 {
+    width: 90%;
+    word-wrap: break-word;
+  }
+
+  .animation {
+    display: inline-block;
+    animation: down 0.1s ease-out;
+  }
+
+  @keyframes down {
+    0% {
+      transform: translateY(-20px);/*where animation starts*/
+    }
+    100% {
+      transform: translateY(0);/*where animation ends*/
+    }
+  }
+  
+
+  
